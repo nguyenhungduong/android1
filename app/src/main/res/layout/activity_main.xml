@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ HỌC PHẦN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#A2E2EA"
+        android:textColor="#B30BE1"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Nhập Mã Hp cần Tk"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            />-->
+        <EditText
+            android:id="@+id/edtTk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mã Tk:                             "
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/btnTk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TK theo Mã"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Máy Tính : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtMaMT"
+            android:hint="Nhập Mã Máy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Máy Tính : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtTenMT"
+            android:hint="Nhập Tên Máy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại Máy :            "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtLoaiMT"
+            android:hint="Nhập Loại Máy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm Sản Xuất : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtNamSx"
+            android:hint="Nhập Năm SX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hãng Sản Xuất : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtHangSx"
+            android:hint="Nhập Hãng Sx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn Giá : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtDonGia"
+            android:hint="Nhập Đơn Giá"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Lượng : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtSoLg"
+            android:hint="Nhập Số Lượng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Thêm"
+            />
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sửa"
+            />
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Xóa"
+            />
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thoát"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvVT"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
